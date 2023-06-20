@@ -88,21 +88,16 @@ body {
         align-content: center;
     }
 
-    .container-img-desktop {
-        display: block !important;
-        height: 100%;
-        object-fit: cover;
+    .container-img {
         border-radius: 15px;
-    }
-
-    .container-img-mobile {
-        display: none;
+        object-fit: cover;
+        height: 100%;
     }
 
 }
 
-.container-img-desktop {
-    display: none;
+.container-img {
+    width: 100%;
 }
 
 .container-info {
@@ -114,10 +109,6 @@ body {
 .container-title {
     font-size: var(--fs-1000);
     font-weight: var(--fw-xl);
-}
-
-.container-img-mobile {
-    width: 100%;
 }
 
 .container-list {
